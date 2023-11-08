@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+--primaryTextColor:#232e35;
+--secondaryTextColor: #656072;
+
+
+--borderColor: #f1f1f1;
+--lineColor:#d9d9d9; /* untuk line di pre-title */
+--primaryBackgroundColor: #fff;
+--secondaryBackgroundColor: #fbfbfb;
+--thirdBackgroundcelor: #f5f3fe;
+
+
+--primaryIconColor: #7e74f1;
+--primaryIconColorHover: #5d51e8;
+--sectionPadding: 6rem 0;
+--itemBorderRadius: 0-7rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6, strong {
+    color: var(--primaryTextColor);
+}
+p {
+    font-size: 1rem; /*16 px*/
+    line-height: 1.9rem;
+}
+
+p, span, label, input, textarea, li {
+    color: var(--secondaryTextColor);
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto ;
+}
+
+@media screen and (max-width : 1200px){
+    .main-container {
+        width: 90%;
+    }
+}
+
+/* logo n navigasi */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.nav .ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+/* https://www.youtube.com/watch?v=kjdT_M2F9tc */
