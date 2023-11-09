@@ -266,4 +266,78 @@ nav ul li a{
 .portofolio-title a svg {
     transition: 0.2s ease-in-out;
 }
+
+.portofolio-tags {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.portofolio-tags div {
+    font-size: .9rem;
+    border: 1px solid  var(--borderColor);
+    padding: .4rem 1rem;
+    color: var(--secondaryTextColor);
+}
+
+/* skills */
+#skills {
+    padding: var(--sectionPadding);
+    background: var(--secondaryBackgroundColor);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.education {
+    display: flex;
+    gap: 2rem;
+}
+
+.education .line {
+    padding: 0 .7rem;
+}
+
+.education .line div {
+    width: 2px;
+    height: 100%;
+    background: var(--borderColor);
+    position: relative;
+}
+
+.education-info p {
+    margin: 0.6rem 0 1.4rem;
+}
+
+.educations-year {
+    margin-bottom: 3rem;
+}
+
+/* dot education  */
+
+.education .line div::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: var(--borderColor);
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+}
+ 
+.skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1.5rem;
+}
+
+.skills-right ul {
+    line-height: 3rem;
+    padding: 0 1rem;
+}
+
+
 /* https://www.youtube.com/watch?v=kjdT_M2F9tc */
