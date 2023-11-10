@@ -4,6 +4,8 @@
 <head>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adi S. Anwar - Software Engineer</title>
@@ -15,14 +17,14 @@
         <div class="main-container">
             <div class="nav">
                 <div class="logo">
-                    <a href="#">AD</a>
+                    <a href="#" class="active">AD</a>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Portofolio</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portofolios">Portofolio</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
                         <!-- <li><a href="#" target="_blank">Resume</a></li> -->
                         <li><a href=""><button class="btn">Resume</button></a></li>
                     </ul>
@@ -53,7 +55,7 @@
     <!-- End of Header -->
 
     <!-- services -->
-    <section id="services">
+    <section class="section fade-in" id="services">
         <div class="services main-container">
             <h3 class="pre-title">Services</h3>
             <h1 class="section-title services-title">Specialized In</h1>
@@ -107,7 +109,7 @@
     </section>
 
     <!-- portofolio -->
-    <section id="portofolios">
+    <section class="section fade-in" id="portofolios">
         <div class="portofolios main-container">
             <h3 class="pre-title">My Works</h3>
             <h1 class="section-title">Featured Portofolio</h1>
@@ -207,7 +209,7 @@
     <!-- end porofolio -->
 
     <!-- Skills -->
-    <section id="skills">
+    <section class="section fade-in" id="skills">
         <div class="skills main-container">
             <h3 class="pre-title">Learning path</h3>
             <h1 class="section-title">Skills & Education</h1>
@@ -281,11 +283,11 @@
     <!-- end skills -->
 
     <!-- contact -->
-    <section id="contact">
+    <section class="section fade-in" id="contact">
         <div class="contact main-container">
           <div class="contact-left">
             <form
-              action=""
+              action="https://formspree.io/f/mbjvbvpa"
               method="POST"
               class="contact-form"
             >
@@ -430,8 +432,10 @@
         <p>&#169; 2023 - Made by Night Coder</p>
       </footer>
       <!-- End Footer -->
+      <div id="scrollToTop" class="scroll-to-top">
+        <a href="#top"><i class="fas fa-arrow-up"></i></a>
+    </div>
   
-      <script src="js/main.js"></script>
+<script src="js/main.js"></script>      
 </body>
-
 </html>
