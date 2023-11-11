@@ -80,7 +80,6 @@ document.getElementById("scrollToTop").addEventListener("click", function() {
   });
 });
 
-// Script untuk menambahkan kelas animasi pada bagian yang muncul dalam tampilan
 document.addEventListener("DOMContentLoaded", function () {
   const sections = document.querySelectorAll(".section");
 
@@ -96,3 +95,4 @@ document.addEventListener("DOMContentLoaded", function () {
       observer.observe(section);
   });
 });
+

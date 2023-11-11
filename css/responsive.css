@@ -128,7 +128,7 @@
 @keyframes fade-in {
   from {
       opacity: 0;
-      transform: translateY(20px); /* Atau sesuaikan dengan properti animasi yang diinginkan */
+      transform: translateY(50px); /* Atau sesuaikan dengan properti animasi yang diinginkan */
   }
   to {
       opacity: 1;
